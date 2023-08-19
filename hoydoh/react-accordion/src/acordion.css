@@ -1,0 +1,26 @@
+button {
+    padding: 8px 20px;;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    flex: auto;
+ }
+ p {
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ button:hover {
+    background-color: #3e8e41;
+ }
+ button:active {
+    transform: scale(0.95);
+ }
+ button:focus {
+    outline: none;
+ }
+ @media screen and (max-width: 500px) {
+    p {
+       font-size: 16px;
+    }
+ }
